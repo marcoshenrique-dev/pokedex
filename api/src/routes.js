@@ -1,7 +1,7 @@
 const { Router } = require('express');
 
 const PokemonController = require('./app/controllers/PokemonController');
-const CategoriesController = require('./app/controllers/CategoriesController');
+const CategoryController = require('./app/controllers/CategoryController');
 
 const router = Router();
 
@@ -15,13 +15,13 @@ router.delete('/pokemon/:id', PokemonController.delete);
 
 // Categories -> Routes
 
-router.post('/category', PokemonController.create);
-router.put('/category/:id', PokemonController.update);
-router.delete('/category/:id', PokemonController.delete);
-router.get('/category', PokemonController.index);
+router.post('/category', CategoryController.create);
+router.put('/category/:id', CategoryController.update);
+router.delete('/category/:id', CategoryController.delete);
+router.get('/category', CategoryController.index);
 
 // Pokemons - Categories -> Routes
 
-router.get('/pokemon/categories/:id', CategoriesController.show);
+router.get('/pokemon/categories/:id', CategoryController.show);
 
 module.exports = router;
