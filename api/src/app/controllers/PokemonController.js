@@ -1,9 +1,17 @@
+const PokemonRepository = require('../repositories/PokemonRepository');
+
 class PokemonController {
   show() {}
 
-  index() {}
+  async index(request, response) {
+    const { orderBy } = request.query;
 
-  create() {}
+    const pokemons = await PokemonRepository.findAll(orderBy);
+
+    response.json(pokemons);
+  }
+
+  store() {}
 
   update() {}
 

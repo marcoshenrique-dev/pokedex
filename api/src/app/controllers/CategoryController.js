@@ -3,7 +3,7 @@ class CategoriesController {
 
   index() {}
 
-  create() {}
+  store() {}
 
   update() {}
 

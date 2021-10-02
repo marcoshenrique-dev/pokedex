@@ -9,13 +9,13 @@ const router = Router();
 
 router.get('/pokemon', PokemonController.index);
 router.get('/pokemon/:id', PokemonController.show);
-router.post('/pokemon', PokemonController.create);
+router.post('/pokemon', PokemonController.store);
 router.put('/pokemon/:id', PokemonController.update);
 router.delete('/pokemon/:id', PokemonController.delete);
 
 // Categories -> Routes
 
-router.post('/category', CategoryController.create);
+router.post('/category', CategoryController.store);
 router.put('/category/:id', CategoryController.update);
 router.delete('/category/:id', CategoryController.delete);
 router.get('/category', CategoryController.index);
