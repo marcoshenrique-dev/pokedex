@@ -9,11 +9,11 @@ O objetivo deste projeto é criar uma pokedex, onde se pode registrar novos "pok
 dentro da api existem várias rotas para realizar as operações, nela foi utilizado apenas o express e a biblioteca pg para integrar com o banco de dados que está em um **container docker** com postgres (**em desenvolvimento**)
 
 - **Pokemons**
-    - listar todos os pokemons cadastrados
-    - criar um novo pokemon
-    - listar dados de um pokemon específico
-    - deletar um pokemon
-    - editar dados de um pokemon
+    - listar todos os pokemons cadastrados ✅
+    - criar um novo pokemon ✅
+    - listar dados de um pokemon específico ✅
+    - deletar um pokemon ✅
+    - editar dados de um pokemon ✅
 - **Categories**
     - criar uma nova categoria
     - editar uma categoria existente
