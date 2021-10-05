@@ -15,10 +15,10 @@ dentro da api existem várias rotas para realizar as operações, nela foi utili
     - deletar um pokemon ✅
     - editar dados de um pokemon ✅
 - **Categories**
-    - criar uma nova categoria
-    - editar uma categoria existente
-    - deletar uma categoria
-    - buscar todas as categorias
+    - criar uma nova categoria ✅
+    - editar uma categoria existente ✅
+    - deletar uma categoria ✅
+    - buscar todas as categorias ✅
     - listar pokemons pela categoria
 
 ### Front-end
